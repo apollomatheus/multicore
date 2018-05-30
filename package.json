@@ -34,7 +34,7 @@
     "request": "browser-request"
   },
   "dependencies": {
-    "bitcore-lib": "^0.15.0",
+    "bitcore-lib": "https://github.com/apollomatheus/bitcore-lib.git",
     "zcore-lib": "https://github.com/apollomatheus/zcore-lib.git"
   },
   "devDependencies": {
