@@ -1,0 +1,47 @@
+{
+  "name": "multicore",
+  "version": "0.0.1",
+  "description": "A pure and powerful JavaScript library to multi coins.",
+  "author": "Apollo <matheuslds1@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp test",
+    "coverage": "gulp coverage",
+    "build": "gulp"
+  },
+  "keywords": [
+    "bitcoin",
+    "transaction",
+    "address",
+    "p2p",
+    "ecies",
+    "cryptocurrency",
+    "blockchain",
+    "payment",
+    "bip21",
+    "bip32",
+    "bip37",
+    "bip69",
+    "bip70",
+    "multisig"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apollomatheys/multicore.git"
+  },
+  "browser": {
+    "request": "browser-request"
+  },
+  "dependencies": {
+    "bitcore-lib": "^0.15.0",
+    "zcore-lib": "^0.15.0"
+  },
+  "devDependencies": {
+    "brfs": "^1.2.0",
+    "chai": "^1.10.0",
+    "gulp": "^3.8.10",
+    "sinon": "^1.13.0"
+  },
+  "license": "MIT"
+}
