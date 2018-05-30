@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "bitcore-lib": "^0.15.0",
-    "zcore-lib": "^0.15.0"
+    "zcore-lib": "https://github.com/apollomatheus/zcore-lib.git"
   },
   "devDependencies": {
     "brfs": "^1.2.0",
