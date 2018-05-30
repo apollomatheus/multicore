@@ -48,6 +48,7 @@ Multicore.Util = function(u,c) {
   case "encoding": return Bitcoin.encoding;
   case "util": return Bitcoin.util;
   case "deps": return Bitcoin.deps;
+  case "errors": return Bitcoin.errors;
   case "transaction": 
   var l = this.GetLib(c);
   if (!l){
